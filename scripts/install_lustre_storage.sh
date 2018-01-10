@@ -43,7 +43,7 @@ HPC_GID=7007
 
 #Added - RAID0
 
-BLACKLIST="/dev/sda|/dev/sdb"
+BLACKLIST="/dev/sda|/dev/sdb|/dev/sdc"
 
 scan_for_new_disks() {
     # Looks for unpartitioned disks
